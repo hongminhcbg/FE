@@ -16,3 +16,26 @@ function processOnChange(scrInput){
     obj.innerHTML = text; 
     console.log(obj);
 }
+
+function processMouseOver(){
+    var element = document.getElementById("onMouseOverP");
+    element.innerHTML = "Mouse onto me";
+}
+
+function processMouseOut(){
+    var element = document.getElementById("onMouseOverP");
+    element.innerHTML = "Mouse not onto me";
+
+}
+
+function processMouseDown(){
+    var element = document.getElementById("onMouseOverP");
+    element.innerHTML = "Mouse down";
+
+}
+
+function processMouseUp(){
+    var element = document.getElementById("onMouseOverP");
+    element.innerHTML = "Mouse Up";
+
+}
